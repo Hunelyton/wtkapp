@@ -140,7 +140,7 @@ const Login = () => {
   return (
     <>
       <Helmet>
-        <title>{appName || "EquipeChat"}</title>
+        <title>{appName || "DM CHAT - O seu gerenciador de atendimento"}</title>
         <link rel="icon" href="/favicon.png" />
       </Helmet>
       <CssBaseline enableColorScheme />
@@ -157,7 +157,7 @@ const Login = () => {
             }}
           >
             <Box>
-              <img src={logo} alt="Logo" style={{ width: "150px" }} />
+              <img src={logo} alt="logo" style={{ width: "150px" }} />
             </Box>
             <Typography
               variant="h4"
@@ -321,7 +321,7 @@ const Login = () => {
                   </Typography>
                   <Typography sx={{ color: "rgba(255, 255, 255, 0.7)" }}>
                     Crie sua conta agora e comece a usar o{" "}
-                    {appName || "EquipeChat"}
+                    {appName || "DM CHAT"}
                     <StyledLink
                       href="/signup"
                       sx={{
